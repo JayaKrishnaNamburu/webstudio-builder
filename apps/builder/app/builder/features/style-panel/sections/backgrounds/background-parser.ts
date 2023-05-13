@@ -24,7 +24,6 @@ export const parseBackground = (
   backgroundColor: RgbValue | undefined;
 } => {
   const layers: string[] = [];
-
   let tokenStream = background.trim();
 
   tokenStream = tokenStream.endsWith(";")
